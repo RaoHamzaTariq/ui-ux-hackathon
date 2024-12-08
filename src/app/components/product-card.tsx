@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from "next/link"
 import { Product } from '@/data/data'
 
 const ProductCard = (props:Product) => {
@@ -7,7 +8,7 @@ const ProductCard = (props:Product) => {
     
     <div className='flex flex-col gap-5 max-w-[348px]'>
         <div className=''>
-      <Image src={`/Images/products/${props.image}.png`} alt={`${props.name} Image`} width={348} height={348}/>
+     <Link href={"/products/product-details"}><Image src={`/Images/products/${props.image}.png`} alt={`${props.name} Image`} width={348} height={348}/></Link> 
         </div>
         <div className='flex flex-col justify-between gap-3'>
                 <ul className=' font-medium text-base'>
