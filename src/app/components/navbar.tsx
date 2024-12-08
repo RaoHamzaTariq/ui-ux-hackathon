@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link'
 import Image from 'next/image'
 import { IoBagOutline, IoSearch } from 'react-icons/io5'
 import { CiHeart } from 'react-icons/ci'
@@ -8,16 +9,16 @@ const Navbar = () => {
     <div className='max-h-24 w-full text-[#111111]'>
         <div className='h-9 max-h-9 bg-[#F5F5F5] flex justify-between items-center px-3 sm:px-14'>
             <div className='w-6 h-6'>
-            <Image src={'/Images/home/footballer-logo.png'} alt={'Jorden Logo'} width={24} height={24}/>
+            <Link href={"/"}><Image src={'/Images/home/footballer-logo.png'} alt={'Jorden Logo'} width={24} height={24}/></Link> 
             </div>
             <ul className='flex gap-2 sm:gap-5 font-helvetica text-[11px] font-medium '>
                 <li>Find a Store</li>
                 <li>|</li>
-                <li>Help</li>
+                <Link hrer={"/contact-us"}> <li>Help</li> </Link>
                 <li>|</li>
-                <li>Join Us</li>
+               <Link hrer={"!joinus"}> <li>Join Us</li> </Link>
                 <li>|</li>
-                <li>Sign In</li>
+                <Link hrer={"/login"}> <li>Sign In</li> </Link>
             </ul>
         </div>
         <div className='max-h-[60px] h-[60px] flex justify-between items-center px-5 py-[10px]'>
@@ -38,7 +39,7 @@ const Navbar = () => {
                     <input type="text" placeholder='Search' className='bg-[#f5f5f5]  text-[#cccccc]'/>
                 </div>
                 <CiHeart  className='text-2xl'/>
-                <IoBagOutline className='text-xl'/>
+               <Link href={"/cart"}> <IoBagOutline className='text-xl'/></Link>
             </div>
         </div>
     </div>
