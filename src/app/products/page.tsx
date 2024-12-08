@@ -95,24 +95,24 @@ const Products = () => {
         </div>
         <div>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center mx-5 sm:mx-0'>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force' price={10795.00} color={1} category={"Men's Shoes"}/>
         <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-low' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='air-jorden' price={10795.00} color={1} category={"Men's Shoes"}/>
         <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-max-90' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-dri-fit-run' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-dri-fit-challenger' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-court-legacy2' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-dri-fit-adv2' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='jorden-series' price={10795.00} color={1} category={"Men's Shoes"}/>
         <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
-        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-force-react' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-super-rep-go' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='serena-design' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-yoga' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-max-systm' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-air-max' price={10795.00} color={1} category={"Men's Shoes"}/>
+        <ProductCard name={"Nike Air Force 1 Mid '07"} tag={"Just In"} image='nike-sportswear' price={10795.00} color={1} category={"Men's Shoes"}/>
     </div>
 
     <div className='flex flex-col gap-4 mt-16'>
