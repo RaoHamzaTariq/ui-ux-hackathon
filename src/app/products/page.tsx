@@ -117,7 +117,7 @@ const Products = () => {
 
     <div className='flex flex-col gap-4 mt-16'>
       <h3 className='text-[19px] font-medium'>Related Categories</h3>
-      <ul className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-8 justify-center mx-5 sm:mx-0'>
+      <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5 justify-center mx-3 sm:mx-3'>
     <li className='related-catgories'>Best Selling Products</li>
     <li className='related-catgories'>Best Shoes</li>
     <li className='related-catgories'>New Basketball Shoes</li>
