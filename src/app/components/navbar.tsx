@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from "next/link'
+import Link from "next/link"
 import Image from 'next/image'
 import { IoBagOutline, IoSearch } from 'react-icons/io5'
 import { CiHeart } from 'react-icons/ci'
